@@ -62,7 +62,7 @@ export function AppSidebar() {
                   <GalleryVerticalEnd className="size-4" />
                 </div>
                 <div className="flex flex-col gap-0.5 leading-none">
-                  <span className="font-semibold">Berthem S. Benitez Jr.</span>
+                  <span className="font-semibold">John Doe</span>
                   <span className="">Portfolio</span>
                 </div>
               </Link>

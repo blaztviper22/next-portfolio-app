@@ -6,6 +6,7 @@ import {
   DialogHeader,
   DialogTitle,
 } from '@/components/ui/dialog'
+import { VisuallyHidden } from './ui/visually-hidden'
 
 interface SearchModalProps {
   isOpen: boolean
@@ -18,7 +19,9 @@ export function SearchModal({ isOpen, onClose, searchQuery }: SearchModalProps) 
     <Dialog open={isOpen} onOpenChange={onClose}>
       <DialogContent>
         <DialogHeader>
-          <DialogTitle>Search Result</DialogTitle>
+          <VisuallyHidden>
+            <DialogTitle>Search Result</DialogTitle>
+          </VisuallyHidden>
           <DialogDescription>
             No results found for &quot;{searchQuery}&quot;. Please try a different search term.
           </DialogDescription>
