@@ -5,7 +5,7 @@ const contactInfo = [
   { icon: Phone, label: 'Phone', value: '+63 930 830-9534' },
   { icon: MapPin, label: 'Address', value: 'Nellie St., Sindangan, Zamboanga Del Norter' },
   { icon: Mail, label: 'Email', value: 'blaztviper22@gmail.com' },
-  { icon: Linkedin, label: 'LinkedIn', value: 'https://www.linkedin.com/in/berthem-benitez-jr-452940294?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app' },
+  { icon: Linkedin, label: 'LinkedIn', value: 'www.linkedin.com/in/berthem- benitez - jr - 452940294' },
   { icon: Github, label: 'GitHub', value: 'https://github.com/blaztviper22' },
   { icon: Facebook, label: 'Facebook', value: 'https://web.facebook.com/hackeer123asxd/' },
 ]
